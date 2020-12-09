@@ -2,9 +2,9 @@
 
 ## Installation
 
-- [Download](../../releases/latest/download/sketch-size-to-print.sketchplugin.zip) the latest release of the plugin
+- [Download](../../releases/latest/download/sketch-get-shape-area.sketchplugin.zip) the latest release of the plugin
 - Un-zip
-- Double-click on sketch-size-to-print.sketchplugin
+- Double-click on sketch-get-shape-area.sketchplugin
 
 ## Development Guide
 
