@@ -1,6 +1,5 @@
-# build artefacts
-plugin.sketchplugin/Contents/Sketch
-plugin.sketchplugin/Contents/Resources/_webpack_resources
+# build artifacts
+sketch-size-to-print.sketchplugin
 
 # npm
 node_modules
@@ -9,3 +8,9 @@ npm-debug.log
 
 # mac
 .DS_Store
+
+# WebStorm
+.idea
+
+# sketch
+# sketch-assets

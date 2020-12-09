@@ -79,9 +79,29 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-exports["default"] = function (context) {
-  context.document.showMessage("It's alive 🎉");
+exports["default"] = function () {
+  var doc = _sketch2["default"].getSelectedDocument();
+  var selectedLayers = doc.selectedLayers;
+  var selectedCount = selectedLayers.length;
+
+  if (selectedCount === 0) {
+    _sketch2["default"].UI.message("No layers are selected.");
+  } else {
+    _sketch2["default"].UI.message(String(selectedCount) + " layers selected.");
+  }
 };
+
+var _sketch = __webpack_require__(1);
+
+var _sketch2 = _interopRequireDefault(_sketch);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
+
+/***/ }),
+/* 1 */
+/***/ (function(module, exports) {
+
+module.exports = require("sketch");
 
 /***/ })
 /******/ ]);

@@ -1,17 +1,19 @@
 {
-  "compatibleVersion": 3,
-  "bundleVersion": 1,
+  "$schema": "https://raw.githubusercontent.com/sketch-hq/SketchAPI/develop/docs/sketch-plugin-manifest-schema.json",
+  "icon": "icon.png",
   "commands": [
     {
-      "name": "my-command",
-      "identifier": "my-command-identifier",
-      "script": "./my-command.js"
+      "name": "Get Shape Area",
+      "identifier": "sketch-get-shape-area.get-shape-area-identifier",
+      "script": "./sketch-get-shape-area.js"
     }
   ],
+  "name": "Get Shape Area",
+  "author": "Benjamin Wiederkehr ",
   "menu": {
-    "title": "Sketch Get Shape Area",
+    "title": "Get Shape Area",
     "items": [
-      "my-command-identifier"
+      "get-shape-area-identifier"
     ]
   }
 }
