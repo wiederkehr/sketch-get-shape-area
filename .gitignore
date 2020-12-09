@@ -1,5 +1,5 @@
 # build artifacts
-sketch-size-to-print.sketchplugin
+sketch-get-shape-area.sketchplugin
 
 # npm
 node_modules
